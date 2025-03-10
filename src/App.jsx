@@ -28,6 +28,8 @@ import DirectivesImp from "./Tailwind/DirectivesImp";
 import TailwindButton from "./Tailwind/TailwindButton";
 import FontFamily from "./Tailwind/FontFamily";
 import PhotoGalary from "./Tailwind/PhotoGalary";
+import DialogBox from "./Tailwind/DialogBox";
+import GoogleUiClone from "./Tailwind/GoogleUiClone";
 
 function App() {
   return (
@@ -56,7 +58,9 @@ function App() {
         {/* <DirectivesImp/> */}
         {/* <TailwindButton/> */}
         {/* <FontFamily /> */}
-        <PhotoGalary/>
+        {/* <PhotoGalary/> */}
+        {/* <DialogBox/> */}
+        <GoogleUiClone/>
       </Provider>
     </>
   );
