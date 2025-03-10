@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @theme{
+    --breakpoint-sm::700px
+} */
+
+/* @theme{
+    --padding-10:150px
+} */
+
+/* @layer components {
+    .btn-primary{
+        @apply bg-blue-900 rounded-md text-white p-2  hover:bg-red-500
+    }
+    .bg-background-blue{
+        @apply bg-blue-500
+    }
+} */
+
+@layer components {
+  .btn {
+    @apply border border-slate-400 rounded px-5 py-1.5 hover:bg-slate-100;
+  }
+  .btn-primary {
+    @apply bg-blue-500 hover:to-blue-600 text-white border-blue-500
+}
+.btn-primary {
+    @apply bg-blue-500 hover:to-blue-600 text-white border-blue-500
+}
+.btn-sucess {
+    @apply bg-green-500 hover:to-green-600 text-green-200 border-blue-500
+}
+.btn-danger {
+    @apply bg-red-500 hover:to-red-600 text-white border-red-500
+}
+.btn-warning {
+    @apply bg-yellow-500 hover:to-yellow-600 text-white border-yellow-500
+}
+.btn-info {
+    @apply bg-blue-500 hover:to-blue-600 text-white border-blue-500
+}
+
+.btn-dark {
+    @apply bg-blue-500 hover:to-blue-600 text-white border-blue-500
+}
+}
+
+@layer components {
+    .img-galary{
+        @apply w-80 hover:scale-110 transition duration-1000 hover:brightness-125 border border-blue-300 rounded hover:border-2 hover:border-blue-200
+    }
+}
