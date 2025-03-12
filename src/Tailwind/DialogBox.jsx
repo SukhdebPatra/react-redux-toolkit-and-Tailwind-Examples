@@ -38,6 +38,7 @@ const DialogBox = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

@@ -1,6 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import UserForm from "./Pages/UserForm";
 import { Provider } from "react-redux";
@@ -30,6 +29,7 @@ import FontFamily from "./Tailwind/FontFamily";
 import PhotoGalary from "./Tailwind/PhotoGalary";
 import DialogBox from "./Tailwind/DialogBox";
 import GoogleUiClone from "./Tailwind/GoogleUiClone";
+import PortFolio from "./Pages/PortFolio";
 
 function App() {
   return (
@@ -60,7 +60,8 @@ function App() {
         {/* <FontFamily /> */}
         {/* <PhotoGalary/> */}
         {/* <DialogBox/> */}
-        <GoogleUiClone/>
+        {/* <GoogleUiClone/> */}
+        <PortFolio/>
       </Provider>
     </>
   );
